@@ -16,9 +16,10 @@ int main()
         arr[num-1-i]=temp;
     }
 
-    /* Write the logic to reverse the array. */
+
     printf("Reversed array is :\n");
     for(i = 0; i < num; i++)
         printf("%d ", *(arr + i));
     return 0;
 }
+
